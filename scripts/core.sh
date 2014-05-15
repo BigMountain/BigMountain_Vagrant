@@ -12,12 +12,12 @@ echo ">>> Installing *.xip.io self-signed SSL"
 
 SSL_DIR="/etc/ssl/xip.io"
 DOMAIN="*.xip.io"
-PASSPHRASE="BigMountain_Vagrant"
+PASSPHRASE="bigmountain"
 
 SUBJ="
 C=US
 ST=Connecticut
-O=BigMountain_Vagrant
+O=BigMountain
 localityName=New Haven
 commonName=$DOMAIN
 organizationalUnitName=
