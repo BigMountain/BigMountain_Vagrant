@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo ">>> Instalando paquetes básicos"
+echo ">>> Installing Basic Packages"
 
 # Update
 sudo apt-get update
