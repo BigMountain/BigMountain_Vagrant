@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo ">>> Installing Apache Server"
+echo ">>> Instalando Servidor Apache"
 
 # Add repo for lastest FULL stable Apache
 sudo add-apt-repository -y ppa:ondrej/apache2
