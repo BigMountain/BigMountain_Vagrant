@@ -16,7 +16,7 @@ echo ">>> Installing Apache Server"
 [[ -z $1 ]] && { echo "!!! IP address not set. Check the Vagrant file."; exit 1; }
 
 if [[ -z $2 ]]; then
-    public_folder="/vagrant"
+    public_folder="/vagrant/public"
 else
     public_folder="$2"
 fi
